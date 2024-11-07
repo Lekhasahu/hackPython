@@ -1,0 +1,20 @@
+print("tuples are immutable(changable)\n like strings while list are mutable")
+print("Tuple is a built-in data type that lets us create immutable sequences of values")
+
+# we don't use square braces [] , instead use paranthesis ()
+tup=(4,5,6,8)
+print(tup[0])
+print(tup[1])
+#tup[0]=2 immutable
+tup=()
+print(tup)
+print(type(tup))
+tup=(3)
+print(type(tup))
+print(tup)
+tup="abc"
+print(type(tup))
+print(tup)
+tup=(3,1,5,6)
+print(tup[1:3])
+print(tup.index(5 and 6))
